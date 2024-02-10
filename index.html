@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="audio.js"></script>
+    <script>
+      function openUp() {
+        const $opentop = document.querySelector("#opentop");
+        const $top = document.querySelector("#top");
+        const $front = document.querySelector("#front");
+        const $back = document.querySelector("#back");
+        const $letter = document.querySelector("#letter");
+        const $button = document.querySelector("button");
+
+        $opentop.beginElement();
+        $top.style.zIndex = 2;
+
+        $top.classList.add("animate");
+        $front.classList.add("animate");
+        $back.classList.add("animate");
+        $button.classList.add("animate");
+        $letter.classList.add("animate");
+      }
+      function playAudio() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="text">
+      <b><h1>Hey ! Listen this is for you 💖..</h1></b>
+    </div>
+    <audio id="myAudio">
+      <source src="music/Is This Love.mp3" type="audio/mp3">
+    </audio>
+    <div id="envelope">
+      <div id="back">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          height="300"
+          width="300"
+        >
+          <polygon
+            points="0,100 300,100 300,300 0,300"
+            style="fill: #4a274a; stroke: none; stroke-width: 0"
+          />
+        </svg>
+      </div>
+      <div id="front">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          height="300"
+          width="300"
+        >
+          <polygon
+            points="0,100 150,200 300,100 300,300 0,300"
+            style="fill: #f08ec0; stroke: #ffffff; stroke-width: 3"
+          />
+        </svg>
+      </div>
+      <div id="top">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          height="300"
+          width="300"
+        >
+          <polygon
+            points="0,100 150,200 300,100"
+            style="fill: #f08ec0; stroke: #ffffff; stroke-width: 2"
+          >
+            <animate
+              id="opentop"
+              attributeName="points"
+              dur="0.5s"
+              fill="freeze"
+              begin="indefinite"
+              from="0,100 150,200 300,100"
+              to="0,100 150,0 300,100"
+            />
+          </polygon>
+        </svg>
+      </div>
+
+      <div id="letter">
+        <h2>For Someone <span><b>Special</b></span></h2>
+
+        <!-- <img src="https://i.postimg.cc/5yZQnDpb/ukraine-7424066-640.webp" />-->
+        <p>
+          Hey... hi Tuna. Long time we haven't had a conversation with each other right. All because of you. How could you even reject this little sweet boy who is so much into you? I really felt bad after that denial 😔.
+          <br />
+          <br />
+          You really think that it ll be very suffocating and hard to be in a Relationship. And I somehow agree to that statement. But I have always been very simple and a straight guy. I know that I m approaching you again and again because of the fact that I really Like You. 
+          <br />
+          Please Tuna!!
+          <a href="second.html">Click Here</a>
+        </p>
+      </div>
+      <button onclick="openUp(),playAudio()">Click Here</button>     
+  </body>
+</html>

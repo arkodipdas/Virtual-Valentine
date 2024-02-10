@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <link rel="stylesheet" href="third.css"/>
+        <script>
+            function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();}
+          </script>
+    </head>
+    <body>
+        <audio id="myAudio">
+            <source src="music/Dil ko.mp3" type="audio/mp3">
+        </audio>
+        <div class="back">
+            <div class="heading">
+                <h1>I know you have alot of issues being in a relationship</h1>
+                <h2>But,Click on this heart and answer this question</h2>
+                <button class="heart" onclick="playAudio()"><i class="ph-bold ph-heart"></i></button>
+            </div>
+            <div class="lower">
+                <h2 class="prop">Please would you like to have someone like me by your side??</h2>
+                <a href="fourth.html" class="yes">Yes</a>
+                <a href="no.html" class="no">No</a>
+            </div>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,18 @@
+.message{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 145px;
+    font-family: cursive;
+    color: rgb(255, 0, 43);
+    -webkit-text-stroke: 1px black;
+}
+body{
+    background-image: url(images/no.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    text-shadow: 2px 2px pink;
+}

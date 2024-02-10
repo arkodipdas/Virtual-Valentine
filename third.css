@@ -1,0 +1,102 @@
+.back{
+    background-image: url(images/back2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+}
+
+.imageback{
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+h1{
+    
+    font-family: cursive;
+    font-size: large;
+    color: rgb(187 0 255);
+    text-align: center;
+    font-size: 219%;
+    position: relative;
+    top: 74px;
+    -webkit-text-stroke: 1%;
+    -webkit-text-stroke-color: #f7f7f7;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(89, 76, 94);
+}
+h2{
+    -webkit-text-stroke: 2% white;
+    position: relative;
+    top: 9vh;
+    text-align: center;
+    color: rgb(255 0 73);
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: 2px 2px #afafaf;
+    font-size: 27px;
+
+}
+.buttons{
+    position: relative;
+    left: 50vw;
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.buttons:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+
+.heart{
+    font-size: 50px;
+    position: relative;
+    left: 50vw;
+    top: 8vh;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background-color: transparent;
+    color: red;
+    text-shadow: 2px 2px grey;
+    border-radius: 10px;
+    border: 1px transparent;
+}
+.heart:hover{
+    color:white;
+    background-color: rgb(255, 31, 68);
+    transition: 1s;
+}
+a {
+    border-radius: 10px;
+    position: relative;
+    left: 45vw;
+    background-color: rgb(255, 34, 82);
+    color: rgb(255, 255, 255);
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 15vh;
+    font-family: cursive;
+  }
+  
+  a:hover {
+    background-color: #ff3e74;
+    transition: 0.8s;
+  }
+ 
