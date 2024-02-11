@@ -70,11 +70,11 @@ body {
   }
   h1 {
     padding-top: 12px;
-    font-family: cursive;
+    font-family: fangsong;
     text-align: center;
-    -webkit-text-stroke: 3px white;
+    -webkit-text-stroke: 1px white;
     color: #ff5d76;
-    font-size: 53px;
+    font-size: 80px;
   }
   h1 span {
     color: red;
